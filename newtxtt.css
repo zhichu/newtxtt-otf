@@ -5,12 +5,12 @@
          url('https://cdn.jsdelivr.net/gh/zhichu/newtxtt-otf/newtxtt-regular.woff') format('woff'),
          url('https://cdn.jsdelivr.net/gh/zhichu/newtxtt-otf/newtxtt-regular.otf') format('otf'),
          url('https://cdn.jsdelivr.net/gh/zhichu/newtxtt-otf/newtxtt-regular.svg') format('svg');
-    font-size: 8pt;
+    font-size: 9pt;
     font-weight: normal;
     font-style: normal;
-    -moz-font-feature-settings:"onum" 1, "ss02" 1;
-    -ms-font-feature-settings:"onum" 1, "ss02" 1;
-    -o-font-feature-settings:"onum" 1, "ss02" 1;
-    -webkit-font-feature-settings:"onum" 1, "ss02" 1;
-    font-feature-settings:"onum" 1, "ss02" 1;
+    -moz-font-feature-settings:"onum" 1, "ss04" 1;
+    -ms-font-feature-settings:"onum" 1, "ss04" 1;
+    -o-font-feature-settings:"onum" 1, "ss04" 1;
+    -webkit-font-feature-settings:"onum" 1, "ss04" 1;
+    font-feature-settings:"onum" 1, "ss04" 1;
 }

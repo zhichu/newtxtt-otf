@@ -1,16 +1,11 @@
 @font-face {
     font-family: 'New TXTT';
-    src: url('https://cdn.rawgit.com/zhichu/newtxtt-otf/master/newtxtt-regular.woff2');
-    src: url('https://cdn.rawgit.com/zhichu/newtxtt-otf/master/newtxtt-regular.woff2') format('woff2'),
-         url('https://cdn.rawgit.com/zhichu/newtxtt-otf/master/newtxtt-regular.woff') format('woff'),
-         url('https://cdn.rawgit.com/zhichu/newtxtt-otf/master/newtxtt-regular.otf') format('otf'),
-         url('https://cdn.rawgit.com/zhichu/newtxtt-otf/master/newtxtt-regular.svg') format('svg');
+    src: url('https://cdn.jsdelivr.net/gh/zhichu/newtxtt-otf/newtxtt-regular.woff2');
+    src: url('https://cdn.jsdelivr.net/gh/zhichu/newtxtt-otf/newtxtt-regular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/zhichu/newtxtt-otf/newtxtt-regular.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/zhichu/newtxtt-otf/newtxtt-regular.otf') format('otf'),
+         url('https://cdn.jsdelivr.net/gh/zhichu/newtxtt-otf/newtxtt-regular.svg') format('svg');
     font-size: 8pt;
     font-weight: normal;
     font-style: normal;
-    -moz-font-feature-settings:"ss04" 1;
-    -ms-font-feature-settings:"ss04" 1;
-    -o-font-feature-settings:"ss04" 1;
-    -webkit-font-feature-settings:"ss04" 1;
-    font-feature-settings:"ss04" 1;
 }

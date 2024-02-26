@@ -56,4 +56,6 @@ scfont.close()
 
 mainfont.generate(f'newtxtt-{fontface}.otf')
 mainfont.generate(f'newtxtt-{fontface}.woff2')
+mainfont.generate(f'newtxtt-{fontface}.eot')
+mainfont.generate(f'newtxtt-{fontface}.svg')
 mainfont.close()

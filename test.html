@@ -1,7 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="https://cdn.jsdelivr.net/gh/zhichu/newtxtt-otf/newtxtt.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/gh/zhichu/newtxtt-otf/newtxtt.css" rel="stylesheet"/> -->
+    <style>
+      @font-face {
+      font-family: 'New TXTT';
+      src: url('https://cdn.jsdelivr.net/gh/zhichu/newtxtt-otf/newtxtt-bold.woff2');
+      font-size: 9pt;
+      font-weight: normal;
+      font-style: normal;
+      }
+      /* use small-cap alternate glyphs */
+      .smallcaps {
+      font-feature-settings: "smcp" on;
+      }
+      /* JACoW variant of newtxtt zero: alt4 */
+      .url {
+      -moz-font-feature-settings:"onum" 1, "ss04" 1;
+      -ms-font-feature-settings:"onum" 1, "ss04" 1;
+      -o-font-feature-settings:"onum" 1, "ss04" 1;
+      -webkit-font-feature-settings:"onum" 1, "ss04" 1;
+      font-feature-settings:"onum" 1, "ss04" 1;
+      }
+    </style>
   </head>
   <body>
     <p class="JACoW_Reference # 10 onwards">
@@ -10,7 +31,7 @@
         “Storage Ring Based Steady State Microbunching”,
         in <i>Proc. 67th ICFA Adv. Beam Dyn. Workshop Future Light Sources (FLS'23)</i>, Luzern, Switzerland, Aug.-Sep. 2023, pp.&nbsp;1-7.
       </span>
-      <span style="font-family:'New TXTT'; font-size:9pt;">
+      <span style="font-family:'New TXTT'; font-size:9pt;" class="url">
         doi:10.18429/JACoW-FLS2023-MO2L2
       </span>
     </p>

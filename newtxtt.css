@@ -8,4 +8,9 @@
     font-size: 8pt;
     font-weight: normal;
     font-style: normal;
+    -moz-font-feature-settings:"onum" 1, "ss02" 1;
+    -ms-font-feature-settings:"onum" 1, "ss02" 1;
+    -o-font-feature-settings:"onum" 1, "ss02" 1;
+    -webkit-font-feature-settings:"onum" 1, "ss02" 1;
+    font-feature-settings:"onum" 1, "ss02" 1;
 }

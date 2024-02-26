@@ -3,6 +3,8 @@
     src: url('https://cdn.rawgit.com/zhichu/newtxtt-otf/master/newtxtt-regular.eot');
     src: url('https://cdn.rawgit.com/zhichu/newtxtt-otf/master/newtxtt-regular.eot?#iefix') format('embedded-opentype'),
          url('https://cdn.rawgit.com/zhichu/newtxtt-otf/master/newtxtt-regular.woff2') format('woff2'),
+         url('https://cdn.rawgit.com/zhichu/newtxtt-otf/master/newtxtt-regular.woff') format('woff'),
+         url('https://cdn.rawgit.com/zhichu/newtxtt-otf/master/newtxtt-regular.otf') format('otf'),
          url('https://cdn.rawgit.com/zhichu/newtxtt-otf/master/newtxtt-regular.svg') format('svg');
     font-size: 8pt;
     font-weight: normal;

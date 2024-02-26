@@ -11,7 +11,7 @@ scfont=ff.open(f'newtxtt-{fontface}-sc.otf')
 
 mainfont.addLookup('smcp','gsub_single',None,(('smcp',(('latn',('dflt')),)),))
 mainfont.addLookupSubtable('smcp','smcp_')
-for lut in ['onum','ss01','ss02','ss03','ss04']:
+for lut in ['onum','ss01','ss02','ss03','ss04','ss05']:
     mainfont.addLookup(lut,'gsub_single',None,((lut,(('dflt',('dflt')),)),))
     mainfont.addLookupSubtable(lut,lut+'_')
 

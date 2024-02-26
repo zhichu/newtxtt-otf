@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20230101 at Mon Feb 26 18:49:32 2024
+Created by FontForge 20230101 at Mon Feb 26 19:26:38 2024
  By Zhichu Chen
 Version 3.0, GPL
 </metadata>
@@ -95,8 +95,7 @@ d="M325 0h-126v126h126v-126z" />
     <glyph glyph-name="slash" unicode="/" 
 d="M492 671l-390 -796h-70l391 796h69z" />
     <glyph glyph-name="zero" unicode="0" 
-d="M477 315c0 -136 -45 -330 -215 -330s-215 194 -215 330c0 135 46 330 215 330s215 -195 215 -330zM388 315c0 85 -6 266 -126 266c-21 0 -38 -6 -53 -15l156 -433c21 59 23 135 23 182zM315 62l-155 432c-21 -58 -23 -133 -23 -179c0 -84 6 -268 125 -268
-c21 0 39 6 53 15z" />
+d="M315 262h-106v106h106v-106zM463 315c0 -149 -61 -327 -201 -327c-141 0 -201 177 -201 327c0 149 61 330 201 330c139 0 201 -182 201 -330zM387 315c0 97 -23 265 -125 265s-124 -168 -124 -265s22 -265 124 -265s125 168 125 265z" />
     <glyph glyph-name="one" unicode="1" 
 d="M446 0h-316v63h116v479l-111 -40v61l195 82v-582h116v-63z" />
     <glyph glyph-name="two" unicode="2" 
@@ -681,6 +680,9 @@ c-52 0 -114 -12 -114 -77c0 -131 323 -151 323 -345z" />
     <glyph glyph-name="zero.oldstyle" 
 d="M477 230c0 -99 -45 -241 -215 -241s-215 142 -215 241c0 98 46 241 215 241s215 -143 215 -241zM388 230c0 62 -6 194 -126 194c-21 0 -38 -4 -53 -11l156 -316c21 43 23 99 23 133zM315 45l-155 316c-21 -43 -23 -97 -23 -131c0 -61 6 -196 125 -196c21 0 39 5 53 11z
 " />
+    <glyph glyph-name="zero.alt5" 
+d="M477 315c0 -136 -45 -330 -215 -330s-215 194 -215 330c0 135 46 330 215 330s215 -195 215 -330zM388 315c0 85 -6 266 -126 266c-21 0 -38 -6 -53 -15l156 -433c21 59 23 135 23 182zM315 62l-155 432c-21 -58 -23 -133 -23 -179c0 -84 6 -268 125 -268
+c21 0 39 6 53 15z" />
     <glyph glyph-name="one.oldstyle" 
 d="M446 0h-316v46h116v350l-111 -30v45l195 60v-425h116v-46z" />
     <glyph glyph-name="two.oldstyle" 

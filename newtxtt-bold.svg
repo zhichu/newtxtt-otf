@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20230101 at Mon Feb 26 18:49:33 2024
+Created by FontForge 20230101 at Mon Feb 26 19:26:40 2024
  By Zhichu Chen
 Version 3.0, GPL
 </metadata>
@@ -63,7 +63,7 @@ d="M340 0h-156v156h156v-156z" />
     <glyph glyph-name="slash" unicode="/" 
 d="M516 701l-405 -826h-103l406 826h102z" />
     <glyph glyph-name="zero" unicode="0" 
-d="M492 330c0 -134 -44 -345 -230 -345s-230 211 -230 345c0 133 45 345 230 345s230 -212 230 -345zM373 330c0 79 1 251 -111 251c-13 0 -24 -3 -34 -7l135 -376c9 47 10 97 10 132zM297 84l-135 375c-9 -46 -10 -95 -10 -129c0 -78 -1 -253 110 -253c13 0 25 3 35 7z" />
+d="M314 276h-104v104h104v-104zM475 330c0 -150 -61 -342 -213 -342c-153 0 -213 191 -213 342c0 150 61 345 213 345c151 0 213 -196 213 -345zM364 330c0 91 -7 250 -102 250s-101 -159 -101 -250c0 -90 6 -249 101 -249s102 159 102 249z" />
     <glyph glyph-name="one" unicode="1" 
 d="M461 0h-346v93h116v443l-111 -40v92l225 95v-590h116v-93z" />
     <glyph glyph-name="two" unicode="2" 
@@ -626,6 +626,8 @@ c0 -116 323 -142 323 -345zM1014 168c0 -136 -133 -180 -237 -180c-64 0 -126 13 -19
 c-54 0 -99 -13 -99 -62c0 -116 323 -142 323 -345z" />
     <glyph glyph-name="zero.oldstyle" 
 d="M492 241c0 -98 -44 -252 -230 -252s-230 154 -230 252c0 97 45 252 230 252s230 -155 230 -252zM373 241c0 58 1 183 -111 183c-13 0 -24 -2 -34 -5l135 -274c9 34 10 70 10 96zM297 61l-135 274c-9 -34 -10 -69 -10 -94c0 -57 -1 -185 110 -185c13 0 25 2 35 5z" />
+    <glyph glyph-name="zero.alt5" 
+d="M492 330c0 -134 -44 -345 -230 -345s-230 211 -230 345c0 133 45 345 230 345s230 -212 230 -345zM373 330c0 79 1 251 -111 251c-13 0 -24 -3 -34 -7l135 -376c9 47 10 97 10 132zM297 84l-135 375c-9 -46 -10 -95 -10 -129c0 -78 -1 -253 110 -253c13 0 25 3 35 7z" />
     <glyph glyph-name="one.oldstyle" 
 d="M461 0h-346v68h116v323l-111 -29v67l225 70v-431h116v-68z" />
     <glyph glyph-name="two.oldstyle" 

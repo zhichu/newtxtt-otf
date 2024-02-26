@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+fontfamily="New TXTT"
+
+fonts=(regular bold)
+
+declare -A weights=(
+    [regular]="Regular"
+    [bold]="Bold"
+)
+
+declare -A files=(
+    [regular]="newtxtt.pfb"
+    [bold]="newtxbtt.pfb"
+)
+
+for font in "${fonts[@]}"; do
+    mainfile=${files[$font]}
+    scfile=${files[$font]%%.*}sc.${files[$font]##*.}
+    echo $mainfile
+    echo $scfile
+    mainpath=$(luatools ${mainfile})
+    scpath=$(luatools ${scfile})
+    psname=${fontfamily//[[:blank:]]/}-${weights[$font]//[[:blank:]]/}
+    ./convert.pe "$mainpath" "$scpath" "$psname" "$fontfamily" "${weights[$font]}" "$font"
+    ./convert.py "$font"
+    done
